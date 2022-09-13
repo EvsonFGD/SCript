@@ -1,8 +1,6 @@
 SELECT DISTINCT
 d.CODSUPERVISOR,
   d.NOME,
-  --e.CODUSUR,            
---e.NOME,
   :dtnicio1 ,:dtfim1,
    (SELECT
     Sum(Nvl(pcpedc.VLATEND, 0)) FROM
