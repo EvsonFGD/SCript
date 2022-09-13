@@ -1,2 +1,2 @@
 # SCript
- Teste
+ Relatorio SQL banco de dados Oracle.
